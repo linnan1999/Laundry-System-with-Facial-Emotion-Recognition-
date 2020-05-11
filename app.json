@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wash/wash",
+    "pages/pay/pay",
+    "pages/order/order",
+    "pages/logs/logs",
+    "pages/face/face"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#652c7d",
+    "navigationBarTitleText": "LGU-WashingCenter",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index_purple.png",
+        "selectedIconPath": "images/index_yellow.png"
+      },
+      {
+      "pagePath": "pages/wash/wash",
+      "text": "洗衣",
+      "iconPath": "images/xiyi_purple.png",
+      "selectedIconPath": "images/xiyi_yellow.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/order_purple.png",
+        "selectedIconPath": "images/order_yellow.png"
+      }
+      
+    ],
+    "color": "#652c7d",
+    "selectedColor": "#ffcc33"
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.0",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}
