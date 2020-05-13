@@ -119,19 +119,7 @@ Page({
     oldId: null
   },
   onLoad: function (options) {
-  //   checkedList.forEach(value=> {
-  //     value.Id = value.ClothesId;
-  //     value.Name = value.ClotherName;
-  //     value.Price = value.ClothesPrice
-  // })
-  // console.log("checkedslist",res.data.Data.Clotheslist)
-  // that.setData({
-  //   changeList: res.data.Data.Clotheslist,
-  //   checkedList: checkedList,
-  //   totalNum: checkedList.length,
-  //   totalPrice: res.data.Data.TotalPrice
-  // })
-   
+
   },
   toggleList: function () {
     var that = this;
