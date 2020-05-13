@@ -2,10 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/wash/wash",
-    "pages/pay/pay",
-    "pages/order/order",
-    "pages/logs/logs",
-    "pages/face/face"
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "dark",
