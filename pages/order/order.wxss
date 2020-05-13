@@ -1,0 +1,123 @@
+/*切换栏*/
+.swiper-tab {
+  height: 50px;
+  line-height: 30px;
+  background: rgba(255,255,255,0.9);
+  color: #652c7d;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom:1px;
+  }
+   
+  .swiper-tab-list {
+  margin: 0 30px;
+  padding: 0 4px;
+  font-size: 15px;
+  }
+   
+  .on {
+  border-bottom:2px solid #ffcc33;
+  color: #ffcc33;
+  }
+   
+  .navTopList {
+  display: flex;
+  width: 100%;
+  height: 70rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #BEBEBE ;
+  margin-top:5px;
+  }
+   
+  .navTopList .order-info {
+  text-align: center;
+  }
+   
+  .navTopList .order-info view {
+  width: 56rpx;
+  height: 56rpx;
+  margin-left: 31rpx;
+  }
+   
+  .navTopList .order-info text {
+  font-size: 34rpx;
+  }
+   
+  .navTopList .order-info text.active {
+  color: #ff6662;
+  }
+   
+  .navTopList .ywc,.navTopList .dfk,.navTopList .yqx {
+  flex: 1;
+  }
+   
+  /*订单列表*/
+  .orderDetails {
+  background: rgba(255, 255, 255, 1);
+  border-bottom:10rpx solid rgba(0,0,0,0.1);
+  }
+   
+  .orderListTitle {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #c7bbda;
+  }
+   
+  .orderListTitle .userName {
+  padding-right: 50rpx;
+  margin-left:10px;
+  }
+   
+  .orderListTitle .orderStatus {
+  float: right;
+  margin-right: 20rpx;
+  font-size: 30rpx;
+  color: #652c7d;
+  }
+   
+  .orderListDetails {
+  display: flex;
+  height: 150rpx;
+  border-bottom: 1rpx;
+  }
+
+  .orderListDetails .productInfo {
+  flex: 2;
+  margin: 30rpx 10px 20px 30rpx;
+  font-size:13px;
+   
+  }
+   
+  .orderListDetails .productInfo .productTitle {
+  font-size:13px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom:10px;
+  }
+   
+  .productCount {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx;
+  }
+   
+  .productCount>view {
+  float: right;
+  margin-right: 30rpx;
+  }
+
+  .background{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    background-size:100% 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
